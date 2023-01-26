@@ -9,7 +9,7 @@
 * .NET6.0 Framework
 
 ## Description
-_DO you want to book for an Hotel for a Vacation, meeting, or tospend the night in; THis Application helps you determine the amount of money you would be pending on that(Applicaton basically determines if your hotel stay is likely to be expensive based on some certain conditions )._
+_DO you want to book for an Hotel for a Vacation, meeting, or tospend the night in; THis Application helps you determine the amount of money you would be pending on that(Applicaton basically determines if your hotel stay is likely to be expensive based on some certain conditions)._
 
 ## Setup/Installation
 * Open your git bash Terminal to Clone the Project with a (git clone _REPOSITORY_NAME_)

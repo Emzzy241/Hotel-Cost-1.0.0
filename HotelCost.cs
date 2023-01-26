@@ -44,15 +44,15 @@ class HotelCost
             Console.WriteLine("Your stay is probably going to be pretty expensice. It's both peak travel AND the weekend.");
         }
 
-        // else if(summer){
-        //     // checking if only the summer boolean variable is true
-        //     Console.WriteLine("Your stay might be more expensive than normal!");
-        // }
+        else if(summer){
+            // checking if only the summer boolean variable is true
+            Console.WriteLine("Your stay might be more expensive than normal!");
+        }
 
-        // else if(weekend){
-        //     // checking if only the weekend boolean variable is true
-        //     Console.WriteLine("Your stay might be more expensive than normal!");
-        // }
+        else if(weekend){
+            // checking if only the weekend boolean variable is true
+            Console.WriteLine("Your stay might be more expensive than normal!");
+        }
 
         else{
             // RUN THIS BRANCH: if our summer or weekend boolean variables are true... i.e if one or both statements is false, run this branch too 

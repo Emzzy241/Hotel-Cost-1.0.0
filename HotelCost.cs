@@ -44,18 +44,39 @@ class HotelCost
             Console.WriteLine("Your stay is probably going to be pretty expensice. It's both peak travel AND the weekend.");
         }
 
-        else if(summer){
-            // checking if only the summer boolean variable is true
-            Console.WriteLine("Your stay might be more expensive than normal!");
-        }
+        // else if(summer){
+        //     // checking if only the summer boolean variable is true
+        //     Console.WriteLine("Your stay might be more expensive than normal!");
+        // }
 
-        else if(weekend){
-            // checking if only the weekend boolean variable is true
+        // else if(weekend){
+        //     // checking if only the weekend boolean variable is true
+        //     Console.WriteLine("Your stay might be more expensive than normal!");
+        // }
+
+        // Drying up our else if branch with the ||(or)
+
+        // else if(weekend || summer){
+        //     // checking if either weekend OR summer is true
+        //     Console.WriteLine("Your stay might be more expensive than normal!");
+        // }
+
+        // working with the band(! or not) operator
+        else if(!(weekend || summer)){
+            // with the bang operator added like this (!(weekend || summer))we are looking for the opposite of (weekend || summer). 
+            // in other words, neither boolean can be truefot this condition to be met.
             Console.WriteLine("Your stay might be more expensive than normal!");
         }
 
         else{
+            // if neither of the above conditions are true, the program moves to the else statement priniting out what is there
             // RUN THIS BRANCH: if our summer or weekend boolean variables are true... i.e if one or both statements is false, run this branch too 
+            // BUT: in the above code where we used our bang or not(!) operaor.... It makes this else statement change, 
+            // the only time the else statement would run is if one or the other is true, but not both.... i.e our bang operator
+            // has successfully changed our else operator from evaluating if both summer and weekend boolean variables are true
+            // to now check if one or the other is true, but not both... After testing this out with dotnet run, truly the bang(!) operator has chaned our else statement
+            
+            
             Console.WriteLine("Your stay might be expensive, but it could be worse!");
         }
 
